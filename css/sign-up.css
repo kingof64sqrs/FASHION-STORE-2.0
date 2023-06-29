@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo-name {
+    font-family: 'Sacramento', cursive;
+}
+.nav-links
+{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    
+    display: flex;
+    flex-direction: column;
+}
+.align{
+    
+    padding-top: 5%;
+    padding-left: 40%;
+    
+}
+
+
+.form-template2{
+    width: 340px;
+    height: 400px;
+   
+    background-color:#fff;
+    margin-top: 50px;
+    margin: 25px;
+    
+    
+}
+
+.form-header-t2{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.form-header-t2 h1{
+    color: deeppink;
+   padding: 10px 0px;
+}
+
+
+.form-container-t2{
+    padding: 30px;
+   
+}
+
+input[type='email'] {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 10px 0px;
+    width: 100%;
+
+}
+input[type='password'] {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 10px 0px;
+    width: 100%;
+
+}
+input[type='checkbox'] {
+   margin:20px 0;
+
+}
+.form-container-t2 p{
+    font-size: 14px;
+    color: grey;
+    display: inline-block;
+}
+.form-container-t2 p b{
+    color: #3498db;
+}
+
+.form-container-t2 [type='submit'] {
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background-color: deeppink;
+   margin-top: 30px;
+    padding: 10px 20px;
+   color: white;
+}
+.form-container-t2 p#p3{
+    display: inline-block;
+    margin-left: 10px;
+}
+h4.other-login-op{
+    text-align:center;
+    font-size: 18px;
+    font-weight: 900;
+    color:#5d5c61;
+    padding-right: 60%;
+}
+.social{
+    padding-right: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-bottom: 20px;
+    
+}
